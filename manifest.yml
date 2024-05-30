@@ -1,0 +1,25 @@
+version: 1.0.0
+history:
+  1.0.0:
+    date: '2024-05-30'
+    title: 'First version'
+    description: 'First version. Manifest created.'
+plugin:
+  -
+    name: datatable/datatable_1_10_18
+    version: 1.6.3
+  -
+    name: wf/table
+    version: 1.35.1
+sys:
+  -
+    name: mercury
+    version:
+      - 2.103.0
+php:
+  version:
+    - 8.2.0
+author: null
+links: null
+description: ''
+third_part_software: null

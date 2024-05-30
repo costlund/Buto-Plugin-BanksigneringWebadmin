@@ -1,0 +1,33 @@
+readme:
+  name: Buto-Plugin-BanksigneringWebadmin
+  description: |
+    - List date from api call using Banksignering.se.
+    - User must have role webadmin.
+  item:
+    -
+      name: Settings
+    -
+      name: Usage
+    -
+      name: Pages
+      item:
+        -
+          name: page_log
+          description: |
+            Open this in a modal or on a page.
+            ````
+            onclick: "PluginWfBootstrapjs.modal({id: 'modal_banksignering_webadmin_log', url: '/banksignering_webadmin/log', lable: this.innerHTML, size: 'xl'})"
+            ````
+
+        -
+          name: page_log_data
+    -
+      name: Widgets
+      item: {  }
+    -
+      name: Event
+      item: {  }
+    -
+      name: Construct
+    -
+      name: Methods
