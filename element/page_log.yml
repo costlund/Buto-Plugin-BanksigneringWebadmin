@@ -13,6 +13,7 @@
         type: Type
         status: Status
         method: Method
+        agent: Agent
       datatable:
         ajax: /banksignering_webadmin/log_data
         order:

@@ -27,6 +27,7 @@ class PluginBanksigneringWebadmin{
           $temp->set('status', $item->get('session/response/collectstatus/apiCallResponse/Response/Status'));
           $temp->set('method', $item->get('session/log/method'));
           $temp->set('ip', $item->get('session/log/ip'));
+          $temp->set('agent', $item->get('session/log/agent'));
           $rs[] = $temp->get();
         }
       }
